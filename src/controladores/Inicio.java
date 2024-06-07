@@ -1,3 +1,4 @@
+
 package controladores;
 
 import java.util.ArrayList;
@@ -31,7 +32,7 @@ public class Inicio {
 		ficherosInterfaz fi = new ficherosImplementacion();
 		OperativaInterfaz oi = new OperativaImplementacion();
 		
-		//fi.leerFichero();
+		fi.leerFichero();
 		
 	do {
 		try {
